@@ -1,0 +1,56 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.university-image {
+  width: 100vw;
+  height: 60vh;
+}
+
+.hero-image {
+  margin: 20px 16px;
+  width: 300px;
+  height: 300px;
+}
+
+.image {
+  min-width: 300px;
+  width: 60%;
+  min-height: 300px;
+  height: 60%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease; /* Added transition for smooth hover effect */
+}
+
+.image:hover {
+  min-width: 320px;
+  width: 60%;
+  min-height: 320px;
+  height: 60%;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+/* latest post updates animation */
+
+.animate {
+  position: relative;
+  animation: latestPost 15s infinite;
+  transition: linear;
+}
+
+.animate:hover {
+  animation-play-state: paused;
+}
+
+@keyframes latestPost {
+  from {
+    left: 105%;
+  }
+
+  to {
+    left: -10%;
+  }
+}

@@ -1,0 +1,114 @@
+.admin-card {
+  margin: 10%;
+  padding: 10%;
+  box-shadow: 0 1px 2px rgba(0 0 0 0.2);
+  justify-content: center;
+  background: #e2d9d9;
+  border-radius: 10px;
+}
+
+.service-input {
+  display: block;
+  width: 80%;
+  padding: 1%;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  border: none;
+  font-size: 20px;
+  margin: 20px 15px 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f08080;
+  cursor: pointer;
+}
+
+/* admin-list page style */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+}
+
+.admin-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #dddddd;
+}
+
+/* add-admin css style */
+
+.admin-card h1 {
+  margin-top: 0;
+}
+
+.admin-card input[type="text"],
+.admin-card input[type="password"],
+.admin-card select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.admin-card select {
+  background-color: white; /* Ensure select boxes have white background */
+}
+
+.admin-card input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-card input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.admin-card button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-card button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
+}
